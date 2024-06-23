@@ -7,7 +7,6 @@ from .utils import fetch
 async def info():
     return {
     "project":"simple-scrape-api",
-    "note":"This api is made for educational purpouse only. This is just a simple scrapper built arround `Ciarands` vidsrc downloader/resolver.This project was only made to prevent ads and redirects caused by the `iframe`s",
+    "note":"This api is made for educational purpouse only.",
     "version": VERSION,
-    "developer":"cool-dev-guy"
-    }
+}
